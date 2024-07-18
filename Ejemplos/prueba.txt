@@ -1,0 +1,18 @@
+echo off
+:: Cambiar al directorio del proyecto
+cd C:/LexiGen
+:: Compilar el código C++ a un ejecutable
+g++ -o Ejecutable C:/LexiGen/CodigoObj.cpp
+
+:: Generar el código ensamblador a partir del código C++
+gcc -S C:/LexiGen/CodigoObj.cpp
+
+title Ejecutando el Programa
+
+:: Limpiar la pantalla antes de ejecutar
+cls
+
+:: Ejecutar el programa compilado
+Ejecutable.exe
+@echo off
+:: Salir del script

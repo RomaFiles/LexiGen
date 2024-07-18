@@ -1,0 +1,19 @@
+init {
+    int n1;
+    int n2;
+
+    print("Digite el primer número");
+    read n1;
+
+    print("Digite el segundo número");
+    read n2;
+
+    if (n1 > n2) {
+        print("El mayor es ",n1);   
+    } elseif(n2 > n1) {
+        print("El mayor es ",n2);  
+    } else {
+        print("Ambos números son iguales");
+    }
+}
+end;
