@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <iostream>
+#include <string>
+#include <cstring>
+#include <locale.h>
+using namespace std;
+int main(){
+// Inicio del programa en C++
+int lim;
+int n1 = 0;
+int n2 = 1;
+int sig;
+cout << "Ingrese el limite para la serie de Fibonacci " << endl;cin >> lim;
+if (lim<0) {
+cout << "Debe ingresar un numero que sea mayor que 0" << endl;}
+cout << "Serie de Fibonacci" << endl;while (sig<lim) {
+cout << n1 << endl;sig = n1 + n2;
+n1 = n2;
+n2 = sig;
+}
+cout << n1 << endl;
+// Fin del programa en C++
+return 0;
+}

@@ -1,0 +1,21 @@
+init {
+    int lim;
+    int n1 = 0;
+    int n2 = 1;
+    int sig;
+    
+    print("Ingrese el limite para la serie de Fibonacci ");
+    read lim;
+    if (lim < 0) {
+        print("Debe ingresar un numero que sea mayor que 0");
+    }
+
+    print("Serie de Fibonacci");
+    while (sig <lim) {
+        print(n1);
+        sig = n1 + n2;
+        n1 = n2;
+        n2 = sig;
+    }
+    print(n1);
+} end;

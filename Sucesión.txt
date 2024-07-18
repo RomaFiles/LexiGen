@@ -1,0 +1,24 @@
+init {
+    int num;
+    int i;
+    int incremento;
+    int alterna;
+    print("Ingrese el primer número de la sucesión: ");
+    read num;
+
+    i = 1;
+    incremento = 5;
+    alterna = 0; 
+
+    while (i <= 10) {
+        print(num);
+        if (alterna == 0) {
+            num = num + incremento;
+            alterna = 1;
+        } else {
+            num = num - 2;
+            alterna = 0;
+        }
+        i = i + 1;
+    }
+} end;

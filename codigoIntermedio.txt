@@ -1,0 +1,1 @@
+[valor2 = = 0, cadena1 = = cadena1, resultado = = 2, t0 = valor4 >? 8, t1 = valor4 <? 8, valorLogico = = 1, t2 = 5 OR 2, t3 = 2 =? 2, t4 = valor1 <? 9, t5 = valor1 >? valor2, t6 = 5 >? variable1]
